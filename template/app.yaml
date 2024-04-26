@@ -132,9 +132,6 @@ metadata:
     app.kubernetes.io/component: postgresql
     app.kubernetes.io/instance: postgresql
 spec:
-  clusterIP: 172.30.137.216
-  ipFamilies:
-    - IPv4
   ports:
     - name: 5432-tcp
       protocol: TCP
