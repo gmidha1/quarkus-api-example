@@ -138,8 +138,6 @@ spec:
       port: 5432
       targetPort: 5432
   internalTrafficPolicy: Cluster
-  clusterIPs:
-    - 172.30.137.216
   type: ClusterIP
   ipFamilyPolicy: SingleStack
   sessionAffinity: None
